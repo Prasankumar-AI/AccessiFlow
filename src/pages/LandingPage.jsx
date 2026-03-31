@@ -11,8 +11,8 @@ export default function LandingPage() {
     <div className="min-h-screen relative overflow-hidden">
       {/* Cinematic/Futuristic Backgrounds */}
       <div className="absolute inset-0 bg-grid pointer-events-none z-0" />
-      <div className="absolute top-[-100px] left-[-200px] w-[500px] h-[500px] bg-brandBlue opacity-20 blur-[150px] rounded-full pointer-events-none z-0" />
-      <div className="absolute bottom-[-200px] right-[-100px] w-[600px] h-[600px] bg-accent opacity-10 blur-[150px] rounded-full pointer-events-none z-0" />
+      <div className="absolute top-[-100px] left-[-200px] w-[500px] h-[500px] bg-accent opacity-20 blur-[150px] rounded-full pointer-events-none z-0" />
+      <div className="absolute bottom-[-200px] right-[-100px] w-[600px] h-[600px] bg-brandBlue opacity-10 blur-[150px] rounded-full pointer-events-none z-0" />
       
       <main className="relative z-10 w-full flex flex-col items-center">
         <Hero />
